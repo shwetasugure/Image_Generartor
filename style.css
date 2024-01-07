@@ -1,0 +1,139 @@
+*
+{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+    background: url(images/bg3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #ade8f4;
+    margin: 40px 0 60px 0;
+    border: 2px;
+    border-color: black;
+    border-width: 2px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+#search-input{
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 6px rgba(0,0,0.5,0.2);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+    background-color: white;
+}
+
+#search-button{
+    padding: 10px 20px;
+    background-color: #00296b;
+    color: aliceblue;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search-results
+{
+    display:flex;
+    justify-content :space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.search-result
+{
+    margin-bottom: 60px;
+    width: 30%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    overflow: hidden;
+    border-width: 2px;
+    border-color: black;
+}
+.search-result img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: opacity 0.2 ease-in-out;
+}
+
+.search-result:hover img{
+    opacity: 0.7;
+}
+
+.search-result a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #ade8f4;
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: black;
+}
+
+#show-more-button
+{
+    background-color: #008cba;
+    font-size: 18px;
+    border: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    margin-bottom: 5%;
+
+}
+
+@media screen and (max-width: 768px)
+{
+    .search-results{
+        padding: 20px;
+    }
+    .search-result{
+        width:45%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .search-result{
+        width:100%;
+    }
+}
+
+
