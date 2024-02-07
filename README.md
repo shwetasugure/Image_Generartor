@@ -76,7 +76,7 @@ npm start
 ```
 5. Direct Link to the Demo of the Web Application. 🥁
 
-[Visit My Website](https://app.netlify.com/sites/imaginative-piroshki-62fe29/overview)
+[Visit My Website](https://imaginative-piroshki-62fe29.netlify.app)
 
 This is it...This website is ready for use. 💥
 
