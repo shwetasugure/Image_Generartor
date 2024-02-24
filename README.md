@@ -3,9 +3,9 @@
 A website to generate images as per user's preferences.
 
 ## Table of Contents ✍🏼
-- [Features](##features)
-- [Demo](##demo)
-- [Getting Started](##getting-started)
+- [Features](#features)
+- [Demo](#demo)
+- [Getting Started](#getting-started)
 
 ## Features ✨
 
