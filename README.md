@@ -66,15 +66,7 @@ git clone https://github.com/shwetasugure/Image_Search_Engine.git
 ```bash
 cd Image-search-Engine
 ```
-3. Install dependencies
-```bash
-  npm install
-```
-4. Run the application
-```bash
-npm start
-```
-5. Direct Link to the Demo of the Web Application. 🥁
+3. Direct Link to the Demo of the Web Application. 🥁
 
 [Visit My Website](https://imaginative-piroshki-62fe29.netlify.app)
 
